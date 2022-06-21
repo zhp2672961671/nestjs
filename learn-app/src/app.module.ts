@@ -1,9 +1,16 @@
 import { Module, NestModule,RequestMethod, MiddlewareConsumer } from '@nestjs/common';
+import { APP_FILTER } from '@nestjs/core';
 import { CatsModule } from './cats/cats.module';
 import { LoggerMiddleware } from './common/middleware/logger.middleware';
+import { HttpExceptionFilter } from './filters/http-exception.filter';
 
 @Module({
   imports: [CatsModule],
+  providers: [
+    {
+      provide: APP_FILTER,
+      useClass: HttpExceptionFilter,
+    },
 })
 // 中间件不能在 @Module() 装饰器中列出。我们必须使用模块类的 configure() 方法来设置它们。
 // 包含中间件的模块必须实现 NestModule 接口。我们将 LoggerMiddleware 设置在 ApplicationModule 层上
