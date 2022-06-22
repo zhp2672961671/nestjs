@@ -1,9 +1,14 @@
-import { Controller, Get, Post, Body, HttpException, HttpStatus, UseFilters } from '@nestjs/common';
+import { Controller, Get, Post, Body, HttpException, HttpStatus, UseFilters, UsePipes, Param } from '@nestjs/common';
 import { CreateCatDto } from './dto/create-cat.dto';
 import { CatsService } from './cats.service';
 import { Cat } from './interfaces/cat.interface';
 import { ForbiddenException } from 'src/filters/forbidden.exception';
 import { HttpExceptionFilter } from 'src/filters/http-exception.filter';
+import { JoiValidationPipe } from 'src/pipes/joiValidation.pipe';
+import { ObjectSchema } from '@hapi/joi';
+import { ValidationPipe } from 'src/pipes/validate.pipe';
+import { ParseIntPipe } from 'src/pipes/parse-int.pipe';
+let createCatSchema:ObjectSchema;
 
 @Controller('cats')
 // 要将过滤器设置为控制器作用域
@@ -79,6 +84,68 @@ async create1(@Body() createCatDto: CreateCatDto) {
 async create2(@Body() createCatDto: CreateCatDto) {
   throw new ForbiddenException();
 }
+/* 
+我们要确保create方法能正确执行，所以必须验证 CreateCatDto 里的三个属性。我们可以在路由处理程序方法中做到这一点，但是我们会打破单个责任原则（SRP）。
+另一种方法是创建一个验证器类并在那里委托任务，但是不得不每次在方法开始的时候我们都必须使用这个验证器。那么验证中间件呢？ 这可能是一个好主意，
+但我们不可能创建一个整个应用程序通用的中间件(因为中间件不知道 execution context执行环境,也不知道要调用的函数和它的参数)。
+
+在这种情况下，你应该考虑使用管道。 */
+@Post()
+async create3(@Body() createCatDto: CreateCatDto) {
+  this.catsService.create(createCatDto);
+}
+/* 使用 @UsePipes() 装饰器并创建一个管道实例，并将其传递给 Joi 验证。 */
+@Post()
+@UsePipes(new JoiValidationPipe(createCatSchema))
+async create4(@Body() createCatDto: CreateCatDto) {
+  this.catsService.create(createCatDto);
+}
+@Post()
+/* 设置 ValidationPipe 。管道，与异常过滤器相同，它们可以是方法范围的、控制器范围的和全局范围的。
+另外，管道可以是参数范围的。我们可以直接将管道实例绑定到路由参数装饰器，例如@Body() 
+当验证逻辑仅涉及一个指定的参数时，参数范围的管道非常有用*/
+async create5(@Body(new ValidationPipe()) createCatDto: CreateCatDto) {
+  this.catsService.create(createCatDto);
+}
+@Post()
+// 要在方法级别设置管道，您需要使用 UsePipes() 装饰器。
+@UsePipes(new ValidationPipe())
+async create6(@Body() createCatDto: CreateCatDto) {
+  this.catsService.create(createCatDto);
+}
+// 上面的例子中 ValidationPipe 的实例已就地立即创建。另一种可用的方法是直接传入类（而不是实例），让框架承担实例化责任，并启用依赖注入。
+@Post()
+@UsePipes(ValidationPipe)
+async create7(@Body() createCatDto: CreateCatDto) {
+  this.catsService.create(createCatDto);
+}
+@Get(':id')
+async findOne(@Param('id', new ParseIntPipe()) id) {
+  return await this.catsService.findOne(id);
+}
+/* 
+按 ID 从数据库中选择一个现有的用户实体。
+ */
+// @Get(':id')
+// async findOne(@Param('id', new ParseUUIDPipe()) id) {
+//   return await this.catsService.findOne(id);
+// }
+
+/* 
+ParseUUIDPipe 管道, 它用来分析验证字符串是否是 UUID.
+ */
+// @Get(':id')
+// async findOne(@Param('id', new ParseUUIDPipe()) id) {
+//   return await this.catsService.findOne(id);
+// }
+
+/* 
+做一个管道自己通过 id 找到实体数据:
+*/
+// @Get(':id')
+// findOne(@Param('id', UserByIdPipe) userEntity: UserEntity) {
+//   return userEntity;
+// }
 
 
 }

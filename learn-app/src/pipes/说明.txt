@@ -20,3 +20,36 @@ ParseArrayPipe
 ParseUUIDPipe
 DefaultValuePipe
 他们从 @nestjs/common 包中导出
+
+/* 
+我们要确保create方法能正确执行，所以必须验证 CreateCatDto 里的三个属性。我们可以在路由处理程序方法中做到这一点，但是我们会打破单个责任原则（SRP）。
+另一种方法是创建一个验证器类并在那里委托任务，但是不得不每次在方法开始的时候我们都必须使用这个验证器。那么验证中间件呢？ 这可能是一个好主意，
+但我们不可能创建一个整个应用程序通用的中间件(因为中间件不知道 execution context执行环境,也不知道要调用的函数和它的参数)。
+
+在这种情况下，你应该考虑使用管道。 */
+
+对象结构验证
+有几种方法可以实现，一种常见的方式是使用基于结构的验证。Joi 库是允许您使用一个可读的 API 以非常简单的方式创建 schema，让我们俩试一下基于 Joi 的验证管道。
+
+首先安装依赖：
+
+$ npm install --save @hapi/joi
+$ npm install --save-dev @types/hapi__joi
+
+类验证器
+!> 本节中的技术需要 TypeScript ，如果您的应用是使用原始 JavaScript编写的，则这些技术不可用。
+
+让我们看一下验证的另外一种实现方式
+
+Nest 与 class-validator 配合得很好。这个优秀的库允许您使用基于装饰器的验证。装饰器的功能非常强大，尤其是与 Nest 的 Pipe 功能相结合使用时，因为我们可以通过访问 metatype 信息做很多事情，在开始之前需要安装一些依赖。
+
+$ npm i --save class-validator class-transformer
+
+转换管道
+验证不是管道唯一的用处。在本章的开始部分，我已经提到管道也可以将输入数据转换为所需的输出。
+这是可以的，因为从 transform 函数返回的值完全覆盖了参数先前的值。在什么时候使用？有时从客户端传来的数据需要经过一些修改（例如字符串转化为整数），
+然后处理函数才能正确的处理。还有种情况，比如有些数据具有默认值，用户不必传递带默认值参数，一旦用户不传就使用默认值。转换管道被插入在客户端请求和请求处理程序之间用来处理客户端请求。
+
+内置验证管道
+幸运的是，由于 ValidationPipe 和 ParseIntPipe 是内置管道，因此您不必自己构建这些管道（请记住， ValidationPipe 需要同时安装 class-validator 和 class-transformer 包）。
+与本章中构建ValidationPipe的示例相比，该内置的功能提供了更多的选项，

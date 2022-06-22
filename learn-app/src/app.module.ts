@@ -1,20 +1,27 @@
-import { Module, NestModule,RequestMethod, MiddlewareConsumer } from '@nestjs/common';
+import { Module, NestModule, RequestMethod, MiddlewareConsumer } from '@nestjs/common';
 import { APP_FILTER } from '@nestjs/core';
 import { CatsModule } from './cats/cats.module';
 import { LoggerMiddleware } from './common/middleware/logger.middleware';
 import { HttpExceptionFilter } from './filters/http-exception.filter';
+import { ValidationPipe } from './pipes/validate.pipe';
 
 @Module({
   imports: [CatsModule],
 
-  /* 
-  全局过滤器用于整个应用程序、每个控制器和每个路由处理程序。就依赖注入而言，
-  从任何模块外部注册的全局过滤器（使用上面示例中的 useGlobalFilters()）不能注入依赖，因为它们不属于任何模块。
-  为了解决这个问题，你可以注册一个全局范围的过滤器直接为任何模块设置过滤器： */
   providers: [
     {
       provide: APP_FILTER,
+      /* 
+     全局过滤器用于整个应用程序、每个控制器和每个路由处理程序。就依赖注入而言， 
+    从任何模块外部注册的全局过滤器（使用上面示例中的 useGlobalFilters()）不能注入依赖，因为它们不属于任何模块。
+    为了解决这个问题，你可以注册一个全局范围的过滤器直接为任何模块设置过滤器： */
       useClass: HttpExceptionFilter,
+      
+      /* 
+      全局管道用于整个应用程序、每个控制器和每个路由处理程序。就依赖注入而言，
+      从任何模块外部注册的全局管道（如上例所示）无法注入依赖，因为它们不属于任何模块。为了解决这个问题，可以使用以下构造直接为任何模块设置管道： */
+      // 使用 ValidationPipe 定义管道 另外，useClass 并不是处理自定义提供者注册的唯一方法。
+      // useClass: ValidationPipe
     },
   ],
 })
@@ -23,17 +30,17 @@ import { HttpExceptionFilter } from './filters/http-exception.filter';
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer
-    // 该 apply() 方法可以使用单个中间件，也可以使用多个参数来指定多个多个中间件。
+      // 该 apply() 方法可以使用单个中间件，也可以使用多个参数来指定多个多个中间件。
       .apply(LoggerMiddleware)
       // 如前所述，为了绑定顺序执行的多个中间件，我们可以在 apply() 方法内用逗号分隔它们。
       // consumer.apply(cors(), helmet(), logger).forRoutes(CatsController);
       // .forRoutes('cats');
-      
 
 
-// 我们为之前在CatsController中定义的/cats路由处理程序设置了LoggerMiddleware。
-// 我们还可以在配置中间件时将包含路由路径的对象和请求方法传递给 forRoutes()方法，从而进一步将中间件限制为特定的请求方法。
-// 在下面的示例中，请注意我们导入了 RequestMethod来引用所需的请求方法类型。
+
+      // 我们为之前在CatsController中定义的/cats路由处理程序设置了LoggerMiddleware。
+      // 我们还可以在配置中间件时将包含路由路径的对象和请求方法传递给 forRoutes()方法，从而进一步将中间件限制为特定的请求方法。
+      // 在下面的示例中，请注意我们导入了 RequestMethod来引用所需的请求方法类型。
       .forRoutes({ path: 'cats', method: RequestMethod.GET });
   }
 }
