@@ -6,11 +6,17 @@ import { HttpExceptionFilter } from './filters/http-exception.filter';
 
 @Module({
   imports: [CatsModule],
+
+  /* 
+  全局过滤器用于整个应用程序、每个控制器和每个路由处理程序。就依赖注入而言，
+  从任何模块外部注册的全局过滤器（使用上面示例中的 useGlobalFilters()）不能注入依赖，因为它们不属于任何模块。
+  为了解决这个问题，你可以注册一个全局范围的过滤器直接为任何模块设置过滤器： */
   providers: [
     {
       provide: APP_FILTER,
       useClass: HttpExceptionFilter,
     },
+  ],
 })
 // 中间件不能在 @Module() 装饰器中列出。我们必须使用模块类的 configure() 方法来设置它们。
 // 包含中间件的模块必须实现 NestModule 接口。我们将 LoggerMiddleware 设置在 ApplicationModule 层上
