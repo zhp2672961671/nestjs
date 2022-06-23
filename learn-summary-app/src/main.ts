@@ -2,7 +2,9 @@ import { HttpAdapterHost, NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { AllExceptionsFilter } from './filters/all-exceptions.filter';
 import { HttpExceptionFilter } from './filters/http-exception.filter';
+import { RolesGuard } from './guards/roles.guard';
 import { ValidationPipe } from './pipes/validate.pipe';
+import { Reflector } from '@nestjs/core';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -14,6 +16,12 @@ async function bootstrap() {
   // 设置为一个全局作用域的管道，用于整个应用程序中的每个路由处理器。
   // 在 混合应用中 useGlobalPipes() 方法不会为网关和微服务设置管道, 对于标准(非混合) 微服务应用使用 useGlobalPipes() 全局设置管道。
   app.useGlobalPipes(new ValidationPipe());
+  /*
+  设置一个全局守卫
+  全局守卫用于整个应用程序, 每个控制器和每个路由处理程序。在依赖注入方面, 从任何模块外部注册的全局守卫 (如上面的示例中所示) 不能插入依赖项,
+   因为它们不属于任何模块。
+  */
+  app.useGlobalGuards(new RolesGuard(new Reflector));
 
   await app.listen(3000);
 }
