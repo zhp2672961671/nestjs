@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, HttpException, HttpStatus, UseFilters, UsePipes, Param, UseGuards, SetMetadata } from '@nestjs/common';
+import { Controller, Get, Post, Body, HttpException, HttpStatus, UseFilters, UsePipes, Param, UseGuards, SetMetadata, UseInterceptors } from '@nestjs/common';
 import { CreateCatDto } from './dto/create-cat.dto';
 import { CatsService } from './cats.service';
 import { Cat } from './interfaces/cat.interface';
@@ -9,6 +9,7 @@ import { ObjectSchema } from '@hapi/joi';
 import { ValidationPipe } from 'src/pipes/validate.pipe';
 import { ParseIntPipe } from 'src/pipes/parse-int.pipe';
 import { RolesGuard } from 'src/guards/roles.guard';
+import { LoggingInterceptor } from 'src/Interceptors/logging.interceptor';
 let createCatSchema:ObjectSchema;
 
 @Controller('cats')
@@ -21,6 +22,11 @@ let createCatSchema:ObjectSchema;
 
 // 要将过滤器设置为控制器作用域
 @UseFilters(new HttpExceptionFilter())
+// 控制器范围内设置拦截器
+// 传递的是 LoggingInterceptor 类型而不是实例，让框架承担实例化责任并启用依赖注入
+@UseInterceptors(LoggingInterceptor)
+// 传递立即创建的实例 设置拦截器
+@UseInterceptors(new LoggingInterceptor())
 export class CatsController {
   constructor(private catsService: CatsService) {}
 

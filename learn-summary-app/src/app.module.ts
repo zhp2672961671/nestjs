@@ -1,8 +1,10 @@
 import { Module, NestModule, RequestMethod, MiddlewareConsumer } from '@nestjs/common';
 import { APP_FILTER } from '@nestjs/core';
+import { CatsController } from './cats/cats.controller';
 import { CatsModule } from './cats/cats.module';
 import { LoggerMiddleware } from './common/middleware/logger.middleware';
 import { HttpExceptionFilter } from './filters/http-exception.filter';
+import { LoggingInterceptor } from './Interceptors/logging.interceptor';
 import { ValidationPipe } from './pipes/validate.pipe';
 
 @Module({
@@ -28,6 +30,11 @@ import { ValidationPipe } from './pipes/validate.pipe';
      为了解决此问题, 您可以使用以下构造直接从任何模块设置一个守卫:
       */
       // useClass: RolesGuard,
+
+      /*
+      从模块设置一个拦截器:
+      */
+      // useClass: LoggingInterceptor,
     },
   ],
 })
@@ -54,23 +61,17 @@ export class AppModule implements NestModule {
 MiddlewareConsumer 是一个帮助类。它提供了几种内置方法来管理中间件。
 他们都可以被简单地链接起来。forRoutes() 可接受一个字符串、多个字符串、对象、一个控制器类甚至多个控制器类。
 在大多数情况下，您可能只会传递一个由逗号分隔的控制器列表。以下是单个控制器的示例：
-import { Module, NestModule, MiddlewareConsumer } from '@nestjs/common';
-import { LoggerMiddleware } from './common/middleware/logger.middleware';
-import { CatsModule } from './cats/cats.module';
-import { CatsController } from './cats/cats.controller.ts';
+ */
 @Module({
   imports: [CatsModule],
 })
-export class AppModule implements NestModule {
+export class AppModule1 implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer
       .apply(LoggerMiddleware)
       .forRoutes(CatsController);
   }
-}
- */
-
-/*
+  /*
 有时我们想从应用中间件中排除某些路由。我们可以使用该 exclude() 方法轻松排除某些路由。此方法可以采用一个字符串，
 多个字符串或一个 RouteInfo 对象来标识要排除的路由，如下所示：
 consumer
@@ -82,5 +83,7 @@ consumer
   )
   .forRoutes(CatsController);
  */
+}
+
 
 

@@ -5,6 +5,7 @@ import { HttpExceptionFilter } from './filters/http-exception.filter';
 import { RolesGuard } from './guards/roles.guard';
 import { ValidationPipe } from './pipes/validate.pipe';
 import { Reflector } from '@nestjs/core';
+import { LoggingInterceptor } from './Interceptors/logging.interceptor';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -22,6 +23,12 @@ async function bootstrap() {
    因为它们不属于任何模块。
   */
   app.useGlobalGuards(new RolesGuard(new Reflector));
+
+  /*
+  从模块外部注册的全局拦截器
+  无法插入依赖项, 因为它们不属于任何模块。
+  */
+  app.useGlobalInterceptors(new LoggingInterceptor());
 
   await app.listen(3000);
 }
