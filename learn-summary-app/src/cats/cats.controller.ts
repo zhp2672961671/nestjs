@@ -10,6 +10,7 @@ import { ValidationPipe } from 'src/pipes/validate.pipe';
 import { ParseIntPipe } from 'src/pipes/parse-int.pipe';
 import { RolesGuard } from 'src/guards/roles.guard';
 import { LoggingInterceptor } from 'src/Interceptors/logging.interceptor';
+import { User } from 'src/decorator/user.decorator';
 let createCatSchema:ObjectSchema;
 
 @Controller('cats')
@@ -185,6 +186,16 @@ ParseUUIDPipe 管道, 它用来分析验证字符串是否是 UUID.
 // }
 
 
+// @Get()
+// async findOne1(@User() user: UserEntity) {
+//   console.log(user);
+// }
+
+@Get()
+async findOne3(@User('firstName') firstName: string) {
+  console.log(`Hello ${firstName}`);
 }
+}
+
 // 定义的 @Roles() 装饰器
 export const Roles = (...roles: string[]) => SetMetadata('roles', roles);
