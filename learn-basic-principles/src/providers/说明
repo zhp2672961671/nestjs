@@ -1,0 +1,14 @@
+依赖注入是一种控制反转（IoC）技术，您可以将依赖的实例化委派给 IoC 容器（在我们的示例中为 NestJS 运行时系统），而不是必须在自己的代码中执行。
+
+这个过程有三个关键步骤:
+
+在 cats.service.ts 中 @Injectable() 装饰器声明 CatsService 类是一个可以由Nest IoC容器管理的类。
+
+在 cats.controller.ts 中 CatsController 声明了一个依赖于 CatsService 令牌(token)的构造函数注入:
+
+在 app.module.ts 中，我们将标记 CatsService与 cats.service.ts文件中的 CatsService 类相关联。 我们将在下面确切地看到这种关联（也称为注册）的发生方式。
+当 Nest IoC 容器实例化 CatsController 时，它首先查找所有依赖项*。 当找到 CatsService 依赖项时，它将对 CatsService令牌(token)执行查找，并根据上述步骤（上面的＃3）返回 CatsService 类。
+ 假定单例范围（默认行为），Nest 然后将创建 CatsService 实例，将其缓存并返回，或者如果已经缓存，则返回现有实例。
+
+这个解释稍微简化了一点。我们忽略的一个重要方面是，分析依赖项代码的过程非常复杂，并且发生在应用程序引导期间。一个关键特性是依赖关系分析(或“创建依赖关系图”)是可传递的。 在上面的示例中，
+如果 CatsService 本身具有依赖项，那么那些依赖项也将得到解决。 依赖关系图确保以正确的顺序解决依赖关系-本质上是“自下而上”。 这种机制使开发人员不必管理此类复杂的依赖关系图。
