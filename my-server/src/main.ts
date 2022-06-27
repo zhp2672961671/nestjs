@@ -16,6 +16,7 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   // 使用外部记录器log4js, 便于生产环境后台运行记录日志
+  // console.log("Log4jsLogger==========",Log4jsLogger)
   app.useLogger(app.get(Log4jsLogger));
 
   await app.listen(3000);

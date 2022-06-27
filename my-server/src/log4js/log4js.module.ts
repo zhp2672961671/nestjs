@@ -15,6 +15,7 @@ import { Log4jsLogger } from './log4js.classes';
 @Global()
 @Module({})
 export class Log4jsModule {
+  // forRoot() 可以同步或异步（Promise）返回动态模块。
   static forRoot(
     options: Log4jsOptions = DEFAULT_LOG4JS_OPTIONS,
   ): DynamicModule {
