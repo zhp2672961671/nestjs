@@ -26,7 +26,7 @@ export const createLog4jsLogger = (
   useFactory: async (options: Log4jsOptions): Promise<Log4jsLogger> => {
     const config = options.config;
     const logger = log4js.configure(config).getLogger();
-
+    // 允许覆盖默认方法来解析布局模式的呼叫堆栈数据，将通用的JavaScript错误对象传递给该函数。必须返回具有属性的对象：
     logger.setParseCallStackFunction(parseNestModuleCallStack);
 
     // TODO: add log4js instance container so we can get different logger instance
