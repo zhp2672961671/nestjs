@@ -11,6 +11,7 @@ export interface Log4jsOptionsFactory {
 }
 
 export interface Log4jsOptions {
+  // 代表 name,config 是一个可选的参数，除了它设置类型外，也可以 void 或者直接省略，但是不能是 null
   name?: string;
 
   // TODO file url handling + process.env.LOG4JS_CONFIG filepath handling
@@ -23,7 +24,7 @@ export interface Log4jsOptions {
 export const DEFAULT_LOG4JS_OPTIONS: Log4jsOptions = {
   config: LOG4JS_DEFAULT_CONFIG,
 };
-
+// Pick一个输入类型中选取一组属性并构造一个新的类型（类）
 export interface Log4jsAsyncOptions extends Pick<ModuleMetadata, 'imports'> {
   name?: string;
   inject?: FactoryProvider['inject'];

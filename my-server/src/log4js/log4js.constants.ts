@@ -1,5 +1,5 @@
 import { Configuration } from 'log4js';
-/* 
+/*
 symbol
 基本数据类型，可以创建第一无二的值
 可以传递参做为唯一标识 只支持 string 和 number类型的参数
@@ -12,7 +12,7 @@ export const LOG4JS_DEFAULT_LAYOUT = {
   // log4js default pattern %d{yyyy-MM-dd HH:mm:ss:SSS} [%thread] %-5level %logger{36} - %msg%n
   // we use process id instead thread id
 
-  /* 
+  /*
   %d{HH:mm:ss.SSS} 表示输出到毫秒的时间
   %-5p的意思是日志级别输出左对齐，右边以空格填充
    */
@@ -47,7 +47,7 @@ export const LOG4JS_DEFAULT_CONFIG: Configuration = {
       type: 'stdout',
       layout: LOG4JS_DEFAULT_LAYOUT,
     },
-    /* 
+    /*
     file——输出至指定文件
     属性	类型	含义
 filename	string	日志保存文件的路径及文件名，./为项目根目录

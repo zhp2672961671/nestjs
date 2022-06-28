@@ -24,10 +24,13 @@ export class Log4jsModule {
       providers: [
         {
           provide: getLog4jsOptionsToken(options.name),
+          // 值提供者
           useValue: options,
         },
         createLog4jsLogger(options.name),
         {
+          // 别名提供者
+          // useExisting 语法允许您为现有的提供程序创建别名。这将创建两种访问同一提供者的方法
           provide: Log4jsLogger,
           useExisting: getLog4jsLoggerToken(options.name),
         },
@@ -41,7 +44,7 @@ export class Log4jsModule {
       ],
     };
   }
-
+// 异步传递模块选项
   static forRootAsync(options: Log4jsAsyncOptions): DynamicModule {
     return {
       module: Log4jsModule,
