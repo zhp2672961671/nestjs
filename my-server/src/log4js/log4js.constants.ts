@@ -47,6 +47,7 @@ export const LOG4JS_DEFAULT_CONFIG: Configuration = {
       type: 'stdout',
       layout: LOG4JS_DEFAULT_LAYOUT,
     },
+    out: { type: 'console' },
     /*
     file——输出至指定文件
     属性	类型	含义
@@ -71,7 +72,7 @@ layout?	Layout	输出的样式
     default: {
       // 将其设置为`true`将使此类别的日志事件使用呼叫堆栈在事件中生成行号和文件名。
       enableCallStack: true,
-      appenders: ['stdout', 'file'],
+      appenders: ['stdout', 'file',"out"],
       level: 'debug',
     },
   },
