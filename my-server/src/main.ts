@@ -9,7 +9,7 @@ import { HttpExceptionFilter } from './filter/http-exception.filter';
 import { TransformInterceptor } from './interceptor/transform.interceptor';
 // import { Log4jsLogger } from './log4js';
 
-import { LoggerMiddleware } from './middleware/logger.middleware';
+import { logger } from './middleware/logger.middleware';
 
 // 引导方法
 async function bootstrap() {
@@ -32,7 +32,7 @@ async function bootstrap() {
    // 过滤处理所有异常
   app.useGlobalFilters(new AllExceptionsFilter());
   // 全局中间件
-  app.use(new LoggerMiddleware());
+  app.use(logger);
 
   // 使用外部记录器log4js, 便于生产环境后台运行记录日志
   // app.useLogger(app.get(Log4jsLogger));
