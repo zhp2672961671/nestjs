@@ -7,7 +7,7 @@ import { AppModule } from './app.module';
 import { AllExceptionsFilter } from './filter/any-exception.filter';
 import { HttpExceptionFilter } from './filter/http-exception.filter';
 import { TransformInterceptor } from './interceptor/transform.interceptor';
-import { Log4jsLogger } from './log4js';
+// import { Log4jsLogger } from './log4js';
 
 import { logger } from './middleware/logger.middleware';
 
@@ -22,8 +22,8 @@ async function bootstrap() {
   // 使用参数验证全局管道 自动保护所有接口免受不正确的数据的影响。
   app.useGlobalPipes(new ValidationPipe());
 
-  app.use(express.json()); // For parsing application/json
-  app.use(express.urlencoded({ extended: true })); // For parsing application/x-www-form-urlencoded
+  // app.use(express.json()); // For parsing application/json
+  // app.use(express.urlencoded({ extended: true })); // For parsing application/x-www-form-urlencoded
   // 监听所有的请求路由，并打印日志
   // 使用全局拦截器打印出参
   app.useGlobalInterceptors(new TransformInterceptor());
@@ -52,7 +52,7 @@ async function bootstrap() {
   const document = SwaggerModule.createDocument(app, options);
 
   // 指定文档路径
-  /* 
+  /*
   挂载Swagger界面的路径。
   应用实例。
   上述实例化的文档对象。 */

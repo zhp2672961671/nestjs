@@ -9,7 +9,8 @@ import { ProjModule } from './mpgame/proj.module';
 
 @Module({
 
-  imports: [ Log4jsModule.forRoot(),
+  imports: [
+    // Log4jsModule.forRoot(),
     CacheModule.register({    // 导入缓存模块
       isGlobal: true,
       ttl: 0,
@@ -19,9 +20,9 @@ import { ProjModule } from './mpgame/proj.module';
     ConfigModule.forRoot({     //导入配置模块
       envFilePath: '.env.sample',
     }),
-    ProjModule,
+    // ProjModule,
   ],
-  // controllers: [AppController],
-  // providers: [AppService],
+  controllers: [AppController],
+  providers: [AppService],
 })
 export class AppModule {}
