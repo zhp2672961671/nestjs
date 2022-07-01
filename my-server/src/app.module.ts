@@ -20,7 +20,7 @@ import { ProjModule } from './mpgame/proj.module';
     ConfigModule.forRoot({     //导入配置模块
       envFilePath: '.env.sample',
     }),
-    // ProjModule,
+    ProjModule,
   ],
   controllers: [AppController],
   providers: [AppService],

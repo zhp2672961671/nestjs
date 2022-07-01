@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DbLogger } from 'src/newLog4js/log4js';
+import { JobModule } from './job/job.module';
 @Module({
     imports: [
       TypeOrmModule.forRootAsync({
@@ -14,7 +15,7 @@ import { DbLogger } from 'src/newLog4js/log4js';
           host: process.env.DB_HOST || 'localhost', // 主机，默认为localhost
           port: Number(process.env.DB_PORT) || 3306, // 端口号
           username: process.env.DB_USER || 'root',   // 用户名
-          password: process.env.DB_PASS || 'root', // 密码
+          password: process.env.DB_PASS || '123456', // 密码
           database: process.env.DB_NAME || 'test', //数据库名
           timezone: '+08:00', //服务器上配置的时区
           synchronize: true, //根据实体自动创建数据库表， 生产环境建议关闭
@@ -34,6 +35,15 @@ import { DbLogger } from 'src/newLog4js/log4js';
         //   synchronize: true, //根据实体自动创建数据库表， 生产环境建议关闭
         // }),
       }),
+      // EthModule,
+      // UsersModule,
+      // AuthModule,
+      // GeoModule,
+      JobModule,
+      // BuildModule,
+      // ParseModule,
+      // TestModule,
+      // AssetsModule,
     ],
   })
 export class ProjModule {}

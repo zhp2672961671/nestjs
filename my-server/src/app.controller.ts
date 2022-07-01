@@ -22,6 +22,6 @@ export class AppController {
     // this.catsService.create(createCatDto);
     return createCatDto.name;
   }
-  
+
 }
 
