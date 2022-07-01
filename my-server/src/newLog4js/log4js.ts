@@ -8,6 +8,7 @@ import * as StackTrace from 'stacktrace-js';
 import Chalk from 'chalk';
 import log4jsConfig from './log4jsConfig';
 import { QueryRunner } from 'typeorm';
+import { LoggerService } from '@nestjs/common';
 
 
 // 定义日志级别
@@ -98,6 +99,7 @@ Log4js.configure(log4jsConfig);
 // 实例化
 const logger = Log4js.getLogger("default");
 const mysqlLogger = Log4js.getLogger('mysql');	// 添加了typeorm 日志实例
+const nestLogger = Log4js.getLogger('nest');
 logger.level = LoggerLevel.TRACE;
 
 // 定义log类方法
@@ -184,5 +186,27 @@ export class DbLogger implements Logger {
         mysqlLogger.warn(message);
       }
     }
+  }
+}
+export class MyLogger implements LoggerService {
+  log(message: string) {
+    /* your implementation */
+    nestLogger.info(message);
+  }
+  error(message: string, trace: string) {
+    /* your implementation */
+    nestLogger.error(trace, message);
+  }
+  warn(message: string) {
+    /* your implementation */
+    nestLogger.warn(message);
+  }
+  debug(message: string) {
+    /* your implementation */
+    nestLogger.debug(message);
+  }
+  verbose(message: string) {
+    nestLogger.info(message);
+    /* your implementation */
   }
 }

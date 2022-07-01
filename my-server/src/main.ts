@@ -10,13 +10,14 @@ import { TransformInterceptor } from './interceptor/transform.interceptor';
 // import { Log4jsLogger } from './log4js';
 
 import { logger } from './middleware/logger.middleware';
+import { MyLogger } from './newLog4js/log4js';
 
 // 引导方法
 async function bootstrap() {
   // 创建app对象 自定义应用  使用Express平台
   const app = await NestFactory.create<NestExpressApplication>(AppModule, {
     // 禁用日志
-    logger: false,
+    logger: new MyLogger(),
   });
 
   // 使用参数验证全局管道 自动保护所有接口免受不正确的数据的影响。

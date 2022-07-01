@@ -18,8 +18,6 @@ import { DbLogger } from 'src/newLog4js/log4js';
           database: process.env.DB_NAME || 'test', //数据库名
           timezone: '+08:00', //服务器上配置的时区
           synchronize: true, //根据实体自动创建数据库表， 生产环境建议关闭
-          "logger": new DbLogger(),	// 配置项添加自定义的log类
-          logging: true,
         }),
         // useFactory: () => ({
         //   type: 'mysql', // 数据库类型
@@ -38,18 +36,4 @@ import { DbLogger } from 'src/newLog4js/log4js';
       }),
     ],
   })
-// @Module({
-//   imports: [
-//     TypeOrmModule.forRoot({
-//       type: 'mysql',
-//       host: 'localhost',
-//       port: 3306,
-//       username: 'root',
-//       password: 'root',
-//       database: 'test',
-//       entities: [],
-//       synchronize: true,
-//     }),
-//   ],
-// })
 export class ProjModule {}
