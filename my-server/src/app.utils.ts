@@ -125,11 +125,15 @@ a.mul(b);
   }
 
   // 转化输出
+  /*
+  formatUnits
+  将 wei 单位数格式化为一个代表某单位数的十进制字符串。 输出值总是包含至少一个整数和一个小数位，否则将修剪前导和尾随的 0。
+   参数 decimalsOrUnitsName 可以是 3 到 18 之间（3 的倍数）的小数位数， 或者是单位名称， */
   let v1 = ethers.utils.formatUnits(results[0].pNum, 0);
   let v2 = ethers.utils.formatUnits(results[1].pNum, 0);
   let v3 = ethers.utils.formatUnits(results[2].pNum, 0);
   let v4 = ethers.utils.formatUnits(results[3].pNum, 0);
-
+// toHexString返回值的十六进制字符串表示。
   let part1 = "0x" + results[0].pNum.toHexString().split('0x')[1];
   let part2 = "0x01" + results[1].pNum.toHexString().split('0x')[1];
   let part3 = "0x02" + results[2].pNum.toHexString().split('0x')[1];
@@ -161,6 +165,7 @@ export const getImgUrl = (name: string, ext: string = '.png' ) => {
  * 解析指定xlsx
  */
 export const parseXlsx = (fileName: string) => {
+  // 读取Excel文件，并解析
   let list = xlsx.parse(fileName);
   let result = {};
   for (let i = 0; i < list.length; i++) {
