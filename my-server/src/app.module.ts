@@ -17,11 +17,14 @@ import { ProjModule } from './mpgame/proj.module';
     // .forRoot()调用初始化调度器并且注册在你应用中任何声明的cron jobs,timeouts和intervals。
     ScheduleModule.forRoot(), // 导入计划模块
     ConfigModule.forRoot({     //导入配置模块
-      envFilePath: '.env.sample',
+      envFilePath: 'envs/.env.sample',
+      // envFilePath: ['.env.development.local', '.env.development'],
     }),
+    // ConfigModule.forRoot(),
     ProjModule,
   ],
   controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule {}
+console.log("process.env===========",process.env)

@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DbLogger } from 'src/newLog4js/log4js';
 import { JobModule } from './job/job.module';
-console.log("process.env===========",process.env)
+// console.log("process.env===========",process.env)
 @Module({
     imports: [
       TypeOrmModule.forRootAsync({
