@@ -187,6 +187,7 @@ export class EthService {
    * @param {*} to 结束区块
    */
   async getEventsByContract(addr: string, abi: any, from: number, to: number): Promise<any> {
+    // 连接合约
     const contract = new ethers.Contract(addr, abi, this.signer);
     //prototype . filters . eventname 生成过滤器的函数，该过滤器使用该 函数按事件值过滤
     const filter = contract.filters.Transfer();
