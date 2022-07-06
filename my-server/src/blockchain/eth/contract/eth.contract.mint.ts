@@ -35,6 +35,7 @@ export class EthContractMint {
   async getMintFee(type: number): Promise<any> {
     const contract = this.getInstance();
     let fee = await contract.mint1Fee();
+    // 返回值的字符串表示形式
     console.log(ethers.utils.formatEther(fee));
   }
 
@@ -66,6 +67,7 @@ export class EthContractMint {
 
     // let filter = contract.filters.MintOrderCreated();
     let filter = contract.filters.MintOrderHandled();
+    // queryFilter返回与事件匹配的事件。
     let ret = await contract.queryFilter(filter, nb, lb);
     console.log(ret);
   }
@@ -109,6 +111,7 @@ export class EthContractMint {
     const contract = this.getInstance();
     try {
       let ret = await contract.getMysteryBoxRoundEndTime();
+      // formatUnits返回值的字符串表示形式，格式为单位数字（如果是数字）或指定的单位（如果是字符串）
       let endTime = ethers.utils.formatUnits(ret, 0);
       return '截至时间戳为:' + endTime + ' (单位秒)';
     } catch(e) {
