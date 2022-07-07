@@ -11,7 +11,7 @@ import { JobModule } from '../job/job.module';
   ]), JobModule],
   exports: [UsersService],
   providers: [
-    // UsersService,
+    UsersService,
   ],
   controllers: [UsersController],
 })
