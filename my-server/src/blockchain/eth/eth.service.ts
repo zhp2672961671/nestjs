@@ -48,6 +48,7 @@ export class EthService {
        */
       this.signer = new ethers.Wallet(process.env.COO_SK);
     } catch(e) {
+      // console.log("e=====================",e)
       throw new Error(e);
     }
   }

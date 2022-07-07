@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { EthModule } from 'src/blockchain/eth/eth.module';
 import { DbLogger } from 'src/newLog4js/log4js';
 import { JobModule } from './job/job.module';
 // console.log("process.env===========",process.env)
@@ -36,7 +37,7 @@ import { JobModule } from './job/job.module';
         //   synchronize: true, //根据实体自动创建数据库表， 生产环境建议关闭
         // }),
       }),
-      // EthModule,
+      EthModule,
       // UsersModule,
       // AuthModule,
       // GeoModule,

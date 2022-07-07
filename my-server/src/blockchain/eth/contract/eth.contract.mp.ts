@@ -24,7 +24,7 @@ export class EthContractMp {
       const abi = abiFromJson("MetaPassport.json");
       const signer = this.ethService.getSigner();
       this.contract = new ethers.Contract(addr, abi, signer);
-    } 
+    }
     return this.contract;
   }
 
@@ -32,10 +32,11 @@ export class EthContractMp {
   async onEvent(event_name: string, start_block: number, last_block: number): Promise<any> {
     const contract = this.getInstance();
     const filter = contract.filters[event_name]();
+    // console.log("")
     return await contract.queryFilter(filter, start_block, last_block);
   }
 
-  // 查看mp 
+  // 查看mp
   async getMetaPassport(address: string): Promise<any> {
     const contract = this.getInstance();
     try {

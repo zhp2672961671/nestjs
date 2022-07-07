@@ -27,6 +27,7 @@ export class EthContractMint {
       const signer = this.ethService.getSigner();
       this.contract = new ethers.Contract(addr, abi, signer);
     }
+    // console.log(" this.contract.filters===============", this.contract.filters)
     return this.contract;
   }
 
@@ -66,6 +67,7 @@ export class EthContractMint {
     const nb = 18615800;
 
     // let filter = contract.filters.MintOrderCreated();
+    //filters 事件过滤器由主题组成，主题是记录在Bloom Filter中的值，允许有效搜索与过滤器匹配的条
     let filter = contract.filters.MintOrderHandled();
     // queryFilter返回与事件匹配的事件。
     let ret = await contract.queryFilter(filter, nb, lb);

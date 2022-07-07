@@ -27,4 +27,3 @@ import { ProjModule } from './mpgame/proj.module';
   providers: [AppService],
 })
 export class AppModule {}
-console.log("process.env===========",process.env)

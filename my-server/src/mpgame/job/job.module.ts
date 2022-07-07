@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import * as JobEntity from "./job.entity";
 import { JobService } from './job.service';
-// import { JobSchedule } from './job.schedule';
+import { JobSchedule } from './job.schedule';
 import { EventMpJob } from './schedule/job.event.mp';
 import { EventMintJob } from './schedule/job.event.mint';
 import { HandleMintJob } from './schedule/job.handle.mint';
@@ -17,7 +17,7 @@ import { HandleMintJob } from './schedule/job.handle.mint';
   ])],
   providers: [
     JobService,
-    // JobSchedule,
+    JobSchedule,
     EventMpJob,
     EventMintJob,
     HandleMintJob,
