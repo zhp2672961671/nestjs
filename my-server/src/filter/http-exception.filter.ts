@@ -19,6 +19,12 @@ message:基于状态的 HTTP 错误的简短描述
 @Catch(HttpException)
 export class HttpExceptionFilter implements ExceptionFilter {
   catch(exception: HttpException, host: ArgumentsHost) {
+    /*
+    host.switchToHttp()帮助方法调用一个HTTP应用的HttpArgumentsHost对象. HttpArgumentsHost对象有两个有用的方法，我们可以用来提取期望的对象。我们也可以使用Express类型的断言来返回原生的Express类型对象：
+    const ctx = host.switchToHttp();
+    const request = ctx.getRequest<Request>();
+    const response = ctx.getResponse<Response>();
+    \ */
     const ctx = host.switchToHttp();
     const response = ctx.getResponse<Response>();
     const request = ctx.getRequest<Request>();
