@@ -1,4 +1,5 @@
 import { Injectable, ExecutionContext, SetMetadata } from '@nestjs/common';
+// passport 是目前最流行的 node.js 认证库，
 import { AuthGuard } from '@nestjs/passport';
 import { Reflector } from '@nestjs/core';
 

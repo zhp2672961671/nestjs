@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { EthModule } from 'src/blockchain/eth/eth.module';
 import { DbLogger } from 'src/newLog4js/log4js';
+import { AuthModule } from './auth/auth.module';
 import { JobModule } from './job/job.module';
 import { UsersModule } from './users/users.module';
 // console.log("process.env===========",process.env)
@@ -40,7 +41,7 @@ import { UsersModule } from './users/users.module';
       }),
       EthModule,
       UsersModule,
-      // AuthModule,
+      AuthModule,
       // GeoModule,
       JobModule,
       // BuildModule,

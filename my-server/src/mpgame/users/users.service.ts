@@ -53,7 +53,8 @@ export class UsersService {
 
   // 创建用户
   async create(address: string): Promise<any> {
-    // 发生名字更改，则校验名字
+    // 发生名字更改，则校验名字\
+    console.log("创建用户========")
     const isExist = await this.usersRepository.count({
       where: {
         address,
