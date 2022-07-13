@@ -59,7 +59,7 @@ export class AuthService {
   async cacheMsg(address: string, types: string, time: number = 5): Promise<any> {
     // 创建一个以太坊消息
     const msg = this.ethService.createMessage(types);
-    console.log("msg===============",msg)
+    Logger.log("msg===============",msg)
     // 缓存信息
     await this.cache.set(address, msg, { ttl: time });
     // 返回

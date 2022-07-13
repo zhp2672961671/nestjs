@@ -119,6 +119,7 @@ export class EthService {
     const rand = generator.generate({
       length: 10,
     });
+    console.log("WalletMessage[types]============",WalletMessage[types],WalletMessage[types] + " <" + rand + ">")
     return WalletMessage[types] + " <" + rand + ">";
   }
   /**

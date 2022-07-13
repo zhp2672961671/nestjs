@@ -29,10 +29,10 @@ async function bootstrap() {
   // 监听所有的请求路由，并打印日志
   // 使用全局拦截器打印出参
   app.useGlobalInterceptors(new TransformInterceptor());
-  // 过滤处理 HTTP 异常
-  app.useGlobalFilters(new HttpExceptionFilter());
-   // 过滤处理所有异常
-  app.useGlobalFilters(new AllExceptionsFilter());
+  // // 过滤处理 HTTP 异常
+  // app.useGlobalFilters(new HttpExceptionFilter());
+  //  // 过滤处理所有异常
+  // app.useGlobalFilters(new AllExceptionsFilter());
   // 全局中间件
   app.use(logger);
 

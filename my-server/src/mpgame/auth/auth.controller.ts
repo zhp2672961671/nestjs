@@ -28,7 +28,7 @@ export class AuthController {
    * 签名后采用账户登录换取令牌
    * @param req 验证签名和令牌有效期
    * @param body 包含账户(地址)，密码(签名串)
-   * @returns 
+   * @returns
    */
   @UseGuards(LocalGuard)
   @Post('signed')
