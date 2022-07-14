@@ -18,6 +18,7 @@ export class JwtRolesGuard extends AuthGuard('jwt') {
     // 异步成功后获得req.user属性
     if(await super.canActivate(context)) {
       const user = context.switchToHttp().getRequest().user;
+      console.log("user===========",user,  context.getHandler(),  context.getClass())
 
       // 获取路由所需的权限属性
       const requiredRoles = this.reflector.getAllAndOverride<string[]>('roles', [

@@ -33,6 +33,7 @@ export class AssetsService {
 
   // 获取资产
   async listAssets(user:any, body: ListAssetsDto): Promise<any> {
+    // 星球是否存在
     if(! await this.jobService.checkSphereTokenId(user.address, body.sphereTokenId)) {
       return {
         errCode: 2,
@@ -43,7 +44,7 @@ export class AssetsService {
     let list_assets = await this.assets.findOne({
       where: { sphereTokenId: body.sphereTokenId },
     });
-
+// 资产不存在创建资产
     if(!list_assets) list_assets = await this.generateAsssets(body.sphereTokenId);
 
     return {
@@ -55,7 +56,7 @@ export class AssetsService {
 
   // 获取资产
   async getAssets(sphereTokenId: string, options = {}) {
-    return await this.assets.findOne({ 
+    return await this.assets.findOne({
       where: { sphereTokenId },
       ...options
     });

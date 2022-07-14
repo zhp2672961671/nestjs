@@ -17,6 +17,7 @@ export class AssetsController {
   @ApiHeader({name:'authoriation', description:'本次请求请带上token', required: true})
   @Post('listAssets')
   async listAssets(@Req() req: any, @Body() body: ListAssetsDto): Promise<any> {
+    console.log("body===================",body)
     return await this.assetsService.listAssets(req.user, body);
   }
 }
