@@ -1,5 +1,5 @@
 import { Body, Controller, Post, Req, UseGuards } from '@nestjs/common';
-import { AssetsService } from './assets.service'; 
+import { AssetsService } from './assets.service';
 import { ApiTags, ApiOperation, ApiHeader } from '@nestjs/swagger';
 import { JwtRolesGuard, Roles } from '../auth/guards/jwt.guard';
 import { ListAssetsDto } from './assets.dto';

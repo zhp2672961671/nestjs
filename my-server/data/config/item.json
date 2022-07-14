@@ -1,0 +1,90 @@
+[
+  {
+    "键名": "应用规则",
+    "Id": "C",
+    "name": "C",
+    "url": "C",
+    "defaultValue": "C",
+    "MaxValue": "C"
+  },
+  {
+    "键名": "值释义",
+    "Id": null,
+    "name": null,
+    "url": null,
+    "defaultValue": null,
+    "MaxValue": null
+  },
+  {
+    "键名": null,
+    "Id": 1,
+    "name": "淡水",
+    "url": "build1",
+    "defaultValue": 8,
+    "MaxValue": 999
+  },
+  {
+    "键名": null,
+    "Id": 2,
+    "name": "矿石",
+    "url": "build2",
+    "defaultValue": 8,
+    "MaxValue": 999
+  },
+  {
+    "键名": null,
+    "Id": 3,
+    "name": "木头",
+    "url": "build3",
+    "defaultValue": 8,
+    "MaxValue": 999
+  },
+  {
+    "键名": null,
+    "Id": 4,
+    "name": "麦子",
+    "url": "build5",
+    "defaultValue": 8,
+    "MaxValue": 999
+  },
+  {
+    "键名": null,
+    "Id": 5,
+    "name": "钉子",
+    "url": "build6",
+    "defaultValue": 8,
+    "MaxValue": 999
+  },
+  {
+    "键名": null,
+    "Id": 6,
+    "name": "人口",
+    "url": "build7",
+    "defaultValue": 8,
+    "MaxValue": 999
+  },
+  {
+    "键名": null,
+    "Id": 7,
+    "name": "幸福度",
+    "url": "build8",
+    "defaultValue": 8,
+    "MaxValue": 999
+  },
+  {
+    "键名": null,
+    "Id": 8,
+    "name": "学点",
+    "url": "build9",
+    "defaultValue": 8,
+    "MaxValue": 999
+  },
+  {
+    "键名": null,
+    "Id": 9,
+    "name": "空闲人口",
+    "url": "build10",
+    "defaultValue": 8,
+    "MaxValue": 999
+  }
+]

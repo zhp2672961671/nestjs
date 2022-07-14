@@ -74,7 +74,7 @@ function serializeDTS(dest, fileName, settings) {
 
 
 /**
- * 
+ *
  * @param {String} name the excel file name will be use on create d.ts
  * @param {Object} head the excel head will be the javescript field
  */

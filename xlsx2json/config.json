@@ -1,8 +1,8 @@
 {
   "xlsx": {
-    "head": 2,
-    "src": "./excel/**/[^~$]*.xlsx",
-    "dest": "./json"
+    "head": 4,
+    "src": "../my-server/data/config/**/[^~$]*.xlsx",
+    "dest": "../my-server/data/config"
   },
   "ts": false,
   "json": {

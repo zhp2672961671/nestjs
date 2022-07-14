@@ -30,7 +30,7 @@ function parseJsonObject(data) {
 
 /**
  * 解析workbook中所有sheet的设置
- * @param {*} workbook 
+ * @param {*} workbook
  */
 function parseSettings(workbook) {
 
@@ -48,7 +48,7 @@ function parseSettings(workbook) {
         name: '',
         type: DataType.OBJECT
       },
-    } 
+    }
    */
 
   let settings = {};
@@ -84,25 +84,27 @@ function parseSettings(workbook) {
     head_row.forEach(cell => {
 
       cell = cell.toString();
+      if(cell){
+        let head_setting = {
+          name: cell,
+          type: DataType.UNKNOWN,
+        };
 
-      let head_setting = {
-        name: cell,
-        type: DataType.UNKNOWN,
-      };
+        if (cell.indexOf('#') !== -1) {
+          let pair = cell.split('#');
+          let name = pair[0].trim();
+          let type = pair[1].trim();
 
-      if (cell.indexOf('#') !== -1) {
-        let pair = cell.split('#');
-        let name = pair[0].trim();
-        let type = pair[1].trim();
+          head_setting.name = name;
+          head_setting.type = type;
 
-        head_setting.name = name;
-        head_setting.type = type;
-
-        if (!slave && type === DataType.ID) {
-          sheet_setting.type = SheetType.MASTER;
+          if (!slave && type === DataType.ID) {
+            sheet_setting.type = SheetType.MASTER;
+          }
         }
+        sheet_setting.head.push(head_setting);
       }
-      sheet_setting.head.push(head_setting);
+
     });
 
     settings[sheet_name] = sheet_setting;
@@ -158,9 +160,9 @@ function parseSheet(sheet, setting) {
 
 /**
  * 解析一行
- * @param {*} row 
- * @param {*} rowIndex 
- * @param {*} head 
+ * @param {*} row
+ * @param {*} rowIndex
+ * @param {*} head
  */
 function parseRow(row, rowIndex, head) {
 

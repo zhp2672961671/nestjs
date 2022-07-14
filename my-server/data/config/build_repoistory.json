@@ -1,0 +1,9962 @@
+[
+  {
+    "键名": "应用规则",
+    "typeId": "C",
+    "type": "C",
+    "typeName": "C",
+    "level": "C",
+    "slot": "C",
+    "capactiy": "C",
+    "cost": "C"
+  },
+  {
+    "键名": "值释义",
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": "没有就不写"
+  },
+  {
+    "键名": null,
+    "typeId": 50101,
+    "type": 5,
+    "typeName": "仓库Lv1",
+    "level": 1,
+    "slot": 5,
+    "capactiy": 5,
+    "cost": 0
+  },
+  {
+    "键名": null,
+    "typeId": 50102,
+    "type": 5,
+    "typeName": "仓库Lv2",
+    "level": 2,
+    "slot": 10,
+    "capactiy": 10,
+    "cost": 0
+  },
+  {
+    "键名": null,
+    "typeId": 50103,
+    "type": 5,
+    "typeName": "仓库Lv3",
+    "level": 3,
+    "slot": 20,
+    "capactiy": 20,
+    "cost": 0
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  },
+  {
+    "键名": null,
+    "typeId": null,
+    "type": null,
+    "typeName": null,
+    "level": null,
+    "slot": null,
+    "capactiy": null,
+    "cost": null
+  }
+]

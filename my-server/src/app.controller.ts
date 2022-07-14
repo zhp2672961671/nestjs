@@ -11,8 +11,10 @@ export class CreateCatDto {
   @ApiProperty()
   breed: string;
 }
-// const cfg = confFromJson('item.json');
-// console.log("cfg==============",cfg)
+const cfg = confFromJson('item.json');
+let options={}
+for(let key in cfg) options[key] = cfg[key].defaultValue;
+console.log(options)
 @ApiTags('helloworld')
 @Controller()
 export class AppController {
