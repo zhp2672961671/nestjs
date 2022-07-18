@@ -5,6 +5,7 @@ import { AppService } from './app.service';
 import { ScheduleModule } from '@nestjs/schedule';
 import { ConfigModule } from '@nestjs/config';
 import { ProjModule } from './mpgame/proj.module';
+console.log("2** 2=================",2 ** 2,16 ** 2,16*16)
 
 @Module({
 
