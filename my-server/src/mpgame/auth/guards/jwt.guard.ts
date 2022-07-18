@@ -10,10 +10,12 @@ export const Roles = (...roles: string[]) => SetMetadata('roles', roles);
 @Injectable()
 export class JwtRolesGuard extends AuthGuard('jwt') {
   constructor(private readonly reflector: Reflector) {
+    console.log("Reflector===========Reflector")
     super();
   }
 
   async canActivate(context: ExecutionContext): Promise<any>{
+    console.log("canActivate===========",context)
     // 执行认证守卫的验证方法
     // 异步成功后获得req.user属性
     if(await super.canActivate(context)) {

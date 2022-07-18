@@ -139,6 +139,7 @@ export class EthService {
     // 解析得到一个地址
     // recoverAddress 通过使用带有签名摘要的 ecrecover 返回以太坊地址。
     let recoverAddr = ethers.utils.recoverAddress(hexMsg, signedStr);
+    console.log("recoverAddr================",recoverAddr)
     // 返回一个校验结果
     return address === recoverAddr;
   }

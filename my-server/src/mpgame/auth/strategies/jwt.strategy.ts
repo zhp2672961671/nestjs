@@ -24,7 +24,7 @@ import { JwtConstants } from 'src/app.config';
       secretOrKey: JwtConstants.SECRET,
     });
   }
-
+//  系统自动验证token合法性，并将由token编译出的json作为参数传入validate方法中。
   async validate(payload: any) {
     const { id, address, roles, avatar } = payload;
     return {
