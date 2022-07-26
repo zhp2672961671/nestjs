@@ -17,15 +17,24 @@ export class ParseController {
    */
   @ApiOperation({ summary: '单个上传文件' })
   @Post('uploadFile')
+  /*
+  FileInterceptor() 接收两个参数：
+  一个 fieldName (指向包含文件的 HTML 表单的字段)
+  可选 options 对象
+  */
   @UseInterceptors(FileInterceptor('file'))
+  // Multer 处理以 multipart/form-data 格式发送的数据 Multer无法处理不是受支持的多部分格式（multipart/form-data）的数据。
   uploadFile(@UploadedFile() file: Express.Multer.File, @Res() res:any) {
+    // originalname用户计算机上的文件的名称
     const ext = file.originalname.split('.');
     if(ext.length < 2) return '文件名不对';
-    if(ext[ext.length-1] !== 'xlsx') return '上传文件必须是xlsx格式'; 
-    
+    if(ext[ext.length-1] !== 'xlsx') return '上传文件必须是xlsx格式';
+
     // 文件名+目录
     const fileName = join(__dirname, pathIn, `${file.originalname}`);
+    // 创建WriteStream 一个可写流。
     const wf = createWriteStream(fileName);
+    // buffer一个存放了整个文件的 Buffer
     wf.write(file.buffer, (err)=> {
       if(err) throw new BadRequestException();
       return res.send('上传完毕, 待打包成JSON');
@@ -72,17 +81,20 @@ export class ParseController {
     const path = join(__dirname, pathIn);
 
     // 读取原路径，检查目录情况才好正常操作遍历文件
+    // 返回一个 fs.Stats 实例。
     const stat = statSync(path);
     if(!stat.isDirectory()) return res.send('文件目录异常');
 
     let result = {};
+    // 返回一个不包括 '.' 和 '..' 的文件名的数组。
     let fileNames = readdirSync(path);
     let completeCnt = 0;
     let outPath = join(__dirname, pathOut, 'result.json');
 
-    // 先删除文件
+    // 先删除文件0
+    //existsSync 如果路径存在，则返回 true，否则返回 false。
     if(existsSync(outPath)) unlinkSync(outPath);
-    
+
     // 检查文件个数
     if(fileNames.length === 0) return res.send('目录不存在文件');
 
@@ -109,7 +121,7 @@ export class ParseController {
    * 删除指定文件
    */
   @ApiOperation({ summary: "删除文件" })
-  @Post('deleteFiles') 
+  @Post('deleteFiles')
   deleteFiles(@Body() body:any, @Res() res:any) {
     // 校验参数
     if(!body.files) return res.send('没有指定文件名');
@@ -119,14 +131,14 @@ export class ParseController {
     const path = join(__dirname, pathIn);
     const stat = statSync(path);
     if(!stat.isDirectory()) return res.send('文件目录异常');
- 
+
     // 递归调用
     let fileNames = readdirSync(path);
     fileNames.forEach(item => {
       if (removeArr.indexOf(item.split(".")[0]) > -1) {
         // 删除文件
         unlinkSync(`${path}/${item}`);
-      } 
+      }
     });
 
     return res.send('删除文件完毕，请重新打包');

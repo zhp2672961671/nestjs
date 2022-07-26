@@ -4,7 +4,10 @@ import { EthModule } from 'src/blockchain/eth/eth.module';
 import { DbLogger } from 'src/newLog4js/log4js';
 import { AssetsModule } from './assets/assets.module';
 import { AuthModule } from './auth/auth.module';
+import { BuildModule } from './build/build.module';
+import { GeoModule } from './geo/geo.module';
 import { JobModule } from './job/job.module';
+import { ParseModule } from './parse/parse.module';
 import { UsersModule } from './users/users.module';
 // console.log("process.env===========",process.env)
 @Module({
@@ -43,10 +46,10 @@ import { UsersModule } from './users/users.module';
       EthModule,
       UsersModule,
       AuthModule,
-      // GeoModule,
+      GeoModule,
       JobModule,
-      // BuildModule,
-      // ParseModule,
+      BuildModule,
+      ParseModule,
       // TestModule,
       AssetsModule,
     ],
