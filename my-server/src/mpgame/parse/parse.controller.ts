@@ -1,3 +1,4 @@
+// https://www.kancloud.cn/juukee/nestjs/2676785
 import { BadRequestException, Controller, Get, Post, UploadedFile, UploadedFiles, UseInterceptors, StreamableFile, Res, Body } from '@nestjs/common';
 import { FileInterceptor, FilesInterceptor } from '@nestjs/platform-express';
 import { ApiTags, ApiOperation } from '@nestjs/swagger';
@@ -136,7 +137,7 @@ export class ParseController {
     let fileNames = readdirSync(path);
     fileNames.forEach(item => {
       if (removeArr.indexOf(item.split(".")[0]) > -1) {
-        // 删除文件
+        // 删除文件 ${}获取变量 要在 ` `中使用
         unlinkSync(`${path}/${item}`);
       }
     });
@@ -152,9 +153,11 @@ export class ParseController {
   result(@Res({passthrough:true}) res:any): StreamableFile {
     const fileName = join(__dirname, pathOut, 'result.json');
     const file = createReadStream(fileName);
+    // 自定义响应类型
     res.set({
       'Content-Type': 'application/json',
     });
+    // StreamableFile是一个持有要返回的流的类。你可以传入一个Buffer或者Stream到StreamableFile类的构造函数来创建一个新的StreamableFile实例。
     return new StreamableFile(file);
   }
 }
