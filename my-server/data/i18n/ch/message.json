@@ -1,0 +1,40 @@
+{
+  "NOT_OWN_SPHERE": "没有这个星球 {sphereTokenId}",
+  "NOT_ENOUGH_ASSETS": "资产不足",
+  "TEST_MESSAGE": "测试i18n 消息gggg1",
+  "SUCCESS": "成功",
+  "FAIL": "失败",
+  "SHOW_MESSAGE": "默认展示数据",
+  "NOT_ENOUGH_ASSET": "资产不足 {key}:{value}",
+
+  "HAVE_ONLY_ONE_TECHNOLOGY": "科技建筑只能有一个",
+  "HAVE_ONLY_ONE_LIBRARY": "图书馆只能有一个",
+  "NOTHING_TO_DO": "没什么要做的",
+  "POPULATION_HAS_IN_HOUSE": "人口已在房子里",
+  "SOLT_HAS_IN_HOUSE": "箱位已在房子里",
+  "NOT_FOUND_BUILD": "没找到此建筑{id}",
+  "NOT_OPEN_BUILD": "此建筑为开放{id}",
+  "BUILD_IS_FARMING": "此建筑正在养殖中{id}",
+  "POP_FARM_MAX": "农场人口已最大",
+  "HUMAN_SOLT_ERROR": "人口槽位错误",
+  "RES_FARM_MAX": "农场收益已最大",
+  "NOT_ENOUGH": "不足",
+  "POINT_FARM_MAX": "农场点数已最大",
+  "BUILD_TYPE_ERROR": "建筑类型错误",
+  "NOT_IN_FARM_TIME": "不是种植时间",
+  "FARM_MAX": "农场最大",
+  "BUILD_TYPE_ID_ERROR": "建筑类型ID错误",
+  "BUILD_NOT_UPGRADE": "建筑未升级",
+  "BUILD_ALREADY_OPENED":"建筑已开放",
+  "BUILD_CAN_NOT_OPEN_IN_CREATED": "建造过程中无法开放",
+  "BUILD_TYPE_IS_NOT_REPOSITORY":"建筑类型不是仓库{id}",
+  "NOT_ENOUGH_SOLT": "没有足够的槽位{id}",
+  "ERROR_SOLT_ALLOCATE": "错误的槽位分配",
+  "NOT_FOUND_SPHERE_DATA": "未找到星球数据{sphereTokenId}",
+  "ALREADY_HAVE_A_PASSPORT": "已经有一个护照了",
+  "ALREADY_IS_ROAD": "已经是路了",
+  "CAN_NOT_BUILD_HERE": "不能在此处建造"
+}
+
+
+
