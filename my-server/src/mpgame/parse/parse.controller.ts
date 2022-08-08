@@ -17,7 +17,7 @@ export class ParseController {
    * 上传单个文件并解析
    */
   @ApiOperation({ summary: '单个上传文件' })
-  @Post('uploadFile')
+  @Post('upload-file')
   /*
   FileInterceptor() 接收两个参数：
   一个 fieldName (指向包含文件的 HTML 表单的字段)
@@ -46,7 +46,7 @@ export class ParseController {
    * 批量上传
    */
   @ApiOperation({ summary: '批量上传文件' })
-  @Post('uploadFiles')
+  @Post('upload-files')
   @UseInterceptors(FilesInterceptor('files'))
   uploadedFiles(@UploadedFiles() files: Array<Express.Multer.File>, @Res() res: any) {
     // 完成计数器
@@ -103,10 +103,12 @@ export class ParseController {
     fileNames.forEach(item => {
       let fileName = path + "/" + item;
       // 更新递归调用
+      console.log("parseXlsxs========",fileName)
       parseXlsxs(fileName, result);
       // 计数器
       completeCnt ++;
       // 完成目标
+      console.log("parseXlsxs========end")
       if(completeCnt === fileNames.length) {
         // 创建写入流
         const ws = createWriteStream(outPath);
@@ -122,7 +124,7 @@ export class ParseController {
    * 删除指定文件
    */
   @ApiOperation({ summary: "删除文件" })
-  @Post('deleteFiles')
+  @Post('delete-files')
   deleteFiles(@Body() body:any, @Res() res:any) {
     // 校验参数
     if(!body.files) return res.send('没有指定文件名');

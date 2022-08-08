@@ -28,7 +28,7 @@ async function bootstrap() {
   // app.use(express.urlencoded({ extended: true })); // For parsing application/x-www-form-urlencoded
   // 监听所有的请求路由，并打印日志
   // 使用全局拦截器打印出参
-  app.useGlobalInterceptors(new TransformInterceptor());
+  // app.useGlobalInterceptors(new TransformInterceptor());
   // // 过滤处理 HTTP 异常
   // app.useGlobalFilters(new HttpExceptionFilter());
   //  // 过滤处理所有异常
