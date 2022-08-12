@@ -40,6 +40,8 @@
     "moment": "^2.29.3",
     "multer": "^1.4.5-lts.1",
     "mysql2": "^2.3.3",
+    "nestjs-i18n": "^9.1.5",
+    "node-fetch": "^3.2.10",
     "node-xlsx": "^0.21.0",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",

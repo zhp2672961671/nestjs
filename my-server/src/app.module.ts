@@ -5,8 +5,13 @@ import { AppService } from './app.service';
 import { ScheduleModule } from '@nestjs/schedule';
 import { ConfigModule } from '@nestjs/config';
 import { ProjModule } from './mpgame/proj.module';
-console.log("2** 2=================",2 ** 2,16 ** 2,16*16)
-
+import * as path from 'path';
+// https://nestjs-i18n.com/
+import {
+  AcceptLanguageResolver,
+  I18nModule,
+  HeaderResolver,
+} from 'nestjs-i18n';
 @Module({
 
   imports: [
@@ -23,6 +28,19 @@ console.log("2** 2=================",2 ** 2,16 ** 2,16*16)
     }),
     // ConfigModule.forRoot(),
     ProjModule,
+    I18nModule.forRoot({
+      fallbackLanguage: 'en',
+      loaderOptions: {
+        //process.cwd() 用于获取node.js流程的当前工作目录。
+        path: path.join(process.cwd(), '/data/i18n/'),
+        watch: true,
+      },
+      // 解析器
+      resolvers: [
+        { use: HeaderResolver, options: ['lang', 'l'] },
+        AcceptLanguageResolver,
+      ],
+    }),
   ],
   controllers: [AppController],
   providers: [AppService],
