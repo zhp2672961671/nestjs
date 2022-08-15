@@ -8,6 +8,7 @@ import xlsx from 'node-xlsx';
 // https://learnblockchain.cn/docs/ethers.js/
 // https://docs.ethers.io/v5/api/utils/bignumber/
 import { BigNumber, ethers } from 'ethers';
+import { DataSource } from 'typeorm';
 
 /**
  * 用本地私钥导出加密方法
@@ -309,3 +310,32 @@ export function GetPastResult(now: number): number {
   return deltaTime >= 0 ? (deltaTime < 86400000 ?  1 : 2 ) : 0;
 }
 
+/**
+ *  事务的封装, 接收dataSource 和 func 自定义事务方法
+ * @param dataSource typeOrm DataSource
+ * @param func    自定义异步事务处理function
+ * @returns code 0成功 1 失败
+ */
+ export async function transaction(dataSource: DataSource, func: Function): Promise<any> {
+  // 创建一个事务。
+  const queryRunner = dataSource.createQueryRunner();
+  let result = {
+    code: 0,
+    errMsg: ''
+  };
+  try {
+    await queryRunner.connect();
+    await queryRunner.startTransaction();
+    await func(queryRunner);
+    await queryRunner.commitTransaction();
+  } catch (err) {
+    result.code = 1;
+    result.errMsg = err.message;
+      //如果遇到错误，可以回滚事务
+    await queryRunner.rollbackTransaction();
+  } finally {
+    // 手动实例化并部署一个queryRunner
+    queryRunner.release();
+    return result;
+  }
+}
