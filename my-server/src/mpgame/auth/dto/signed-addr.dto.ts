@@ -12,3 +12,12 @@ export class SignedAddrDto {
   @IsString()
   result: string;
 }
+export class SignedAddrResDto {
+  @ApiProperty({ description: 'jwt令牌' })
+  @IsNotEmpty()
+  token: string;
+
+  @ApiProperty({ description: '令牌过期时间' })
+  @IsNotEmpty()
+  timestamp: number;
+}

@@ -7,3 +7,8 @@ export class SignInAddrDto {
   @IsEthereumAddress()
   address: string;
 }
+export class SignInAddrResDto {
+  @ApiProperty({ description: '签名用消息串' })
+  @IsNotEmpty()
+  msg: string;
+}

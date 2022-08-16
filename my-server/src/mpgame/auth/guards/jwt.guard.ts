@@ -15,10 +15,11 @@ export class JwtRolesGuard extends AuthGuard('jwt') {
   }
 
   async canActivate(context: ExecutionContext): Promise<any>{
-    console.log("canActivate===========",context)
+    console.log("canActivate===========1",context)
     // 执行认证守卫的验证方法
     // 异步成功后获得req.user属性
     if(await super.canActivate(context)) {
+      console.log("canActivate===========2",)
       const user = context.switchToHttp().getRequest().user;
       console.log("user===========",user,  context.getHandler(),  context.getClass())
 
@@ -37,6 +38,7 @@ export class JwtRolesGuard extends AuthGuard('jwt') {
       return requiredRoles.some((role) => user.roles?.includes(role));
 
     }
+    console.log("canActivate===========3",)
 
     // 过不了认证
     return false;
