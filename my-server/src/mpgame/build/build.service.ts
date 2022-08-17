@@ -1,16 +1,16 @@
-import { Injectable } from '@nestjs/common';
-import { Repository } from 'typeorm';
+import { CACHE_MANAGER, Inject, Injectable } from '@nestjs/common';
+import { DataSource, Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Build } from './build.entity';
 import { confFromJson, now, parseKV2Obj, GetPastResult } from 'src/app.utils';
-import { 
-  CreateBuildDto, 
-  ListBuildDto, 
-  RemoveBuildDto, 
-  WorkBuildDto, 
+import {
+  CreateBuildDto,
+  ListBuildDto,
+  RemoveBuildDto,
+  WorkBuildDto,
   FarmBuildDto,
-  UpgradeBuildDto, 
-  GetBuildDto, 
+  UpgradeBuildDto,
+  GetBuildDto,
   MoveBuildDto,
   OpenBuildDto,
   RepoBuildDto,
@@ -18,42 +18,45 @@ import {
 import { JobService } from '../job/job.service';
 import { GeoService } from '../geo/geo.service';
 import { AssetsService } from '../assets/assets.service';
-import { BUILDTYPE } from './build.config';
+import { BUILDTYPE, BUILD_FIND_OPTIONS, TYPE_GRID } from './build.config';
+import { BaseService } from 'src/base/base.service';
+import { I18nRequestScopeService } from 'nestjs-i18n';
+import { Cache } from 'cache-manager';
+import { I18N_MESSAGE } from "../../constants/i18n.constant";
+import { transaction } from 'src/app.utils';
+import { ASSETS_FIND_OPTIONS } from '../assets/assets.config';
+import { CONFIG_NAME } from 'src/app.config';
 
 @Injectable()
-export class BuildService {
+export class BuildService extends BaseService {
   constructor(
     @InjectRepository(Build)
     private readonly build: Repository<Build>,
     private readonly jobService: JobService,
     private readonly geoService: GeoService,
     private readonly assetsService: AssetsService,
-  ) {}
-
-  // 获取服务器时间戳
-  async getTimestamp(): Promise<any> {
-    return {
-      errCode: 0,
-      errMsg: 'success',
-      data: { tiemstamp: now() },
-    }
+    protected readonly i18n: I18nRequestScopeService,
+    @Inject(CACHE_MANAGER)
+    protected readonly cache: Cache,
+    private readonly dataSource: DataSource,
+  ) {
+    super( cache, i18n);
   }
+
+ // 获取服务器时间戳
+ async getTimestamp(): Promise<any> {
+  return this.success({ tiemstamp: now() });
+ }
 
   // 找建筑
   async getBuild(user: any, body: GetBuildDto): Promise<any> {
-    if(! await this.jobService.checkSphereTokenId(user.address, body.sphereTokenId)) {
-      return {
-        errCode: 2,
-        errMsg: `not owner the sphere ${body.sphereTokenId}`,
-      }
+    if (! await this.jobService.checkSphereTokenId(user.address, body.sphereTokenId)) {
+      return this.failShow(I18N_MESSAGE.NOT_OWN_SPHERE, { args: { sphereTokenId: body.sphereTokenId } });
     }
 
-    let data = await this.build.findOneBy({id:body.id});
-    return {
-      errCode: 0,
-      errMsg: 'success',
-      data: { list_build: [data] }
-    }
+    let data = await this.build.findOneBy({ id: body.id });
+
+    return this.success({ list_build: [data] });
   }
 
   // 拉建筑
@@ -66,7 +69,7 @@ export class BuildService {
       }
     }
 
-    let data = await this.build.find({ 
+    let data = await this.build.find({
       where: {sphereTokenId: body.sphereTokenId}
     });
 
@@ -120,7 +123,7 @@ export class BuildService {
         return {
           errCode: 0,
           errMsg: "success",
-          data: { add_build: data } 
+          data: { add_build: data }
         }
       } catch(e) {
         throw new Error(e);
@@ -142,7 +145,7 @@ export class BuildService {
         var build:any;
         await this.build.manager.transaction(async() => {
           resource = await this.assetsService.updateAssets(body.sphereTokenId, assets);
-          build = await this.build.save(newBuild); 
+          build = await this.build.save(newBuild);
         });
         return {
           errCode: 0,
@@ -169,7 +172,7 @@ export class BuildService {
         var build:any;
         await this.build.manager.transaction(async() => {
           resource = await this.assetsService.updateAssets(body.sphereTokenId, assets);
-          build = await this.build.save(newBuild); 
+          build = await this.build.save(newBuild);
         });
         return {
           errCode: 0,
@@ -196,7 +199,7 @@ export class BuildService {
         var build:any;
         await this.build.manager.transaction(async() => {
           resource = await this.assetsService.updateAssets(body.sphereTokenId, assets);
-          build = await this.build.save(newBuild); 
+          build = await this.build.save(newBuild);
         });
         return {
           errCode: 0,
@@ -223,7 +226,7 @@ export class BuildService {
         var build:any;
         await this.build.manager.transaction(async() => {
           resource = await this.assetsService.updateAssets(body.sphereTokenId, assets);
-          build = await this.build.save(newBuild); 
+          build = await this.build.save(newBuild);
         });
         return {
           errCode: 0,
@@ -250,7 +253,7 @@ export class BuildService {
         var build:any;
         await this.build.manager.transaction(async() => {
           resource = await this.assetsService.updateAssets(body.sphereTokenId, assets);
-          build = await this.build.save(newBuild); 
+          build = await this.build.save(newBuild);
         });
         return {
           errCode: 0,
@@ -269,7 +272,7 @@ export class BuildService {
           errCode: 3,
           errMsg: "technology build has only one"
         }
-      } 
+      }
 
       try {
         const cfg = confFromJson('build_base.json')[body.typeId];
@@ -287,7 +290,7 @@ export class BuildService {
         var build:any;
         await this.build.manager.transaction(async() => {
           resource = await this.assetsService.updateAssets(body.sphereTokenId, assets);
-          build = await this.build.save(newBuild); 
+          build = await this.build.save(newBuild);
         });
         return {
           errCode: 0,
@@ -313,7 +316,7 @@ export class BuildService {
       errMsg: 'noting to do'
     }
 
-    // 批量拆路 
+    // 批量拆路
     try {
       // 销毁建筑的资产
       let res:any;
@@ -333,7 +336,7 @@ export class BuildService {
             errCode: 6,
             errMsg: 'slot has in build',
           }
-          break;    
+          break;
         }
       }
 
@@ -348,7 +351,7 @@ export class BuildService {
       }
     } catch(e) {
       throw new Error(e);
-    } 
+    }
   }
 
   // 建筑工作
@@ -400,7 +403,7 @@ export class BuildService {
         errCode: 0,
         errMsg: 'success',
         data: { update_build: [ub] }
-      }      
+      }
     case BUILDTYPE.RESOURCE:
       // 资源配置
       var cfg = confFromJson('build_resouce.json')[build.typeId];
@@ -475,8 +478,8 @@ export class BuildService {
       return {
         errCode: 4,
         errMsg: 'build type error',
-      }      
-    } 
+      }
+    }
   }
 
   // 建筑收获
@@ -539,7 +542,7 @@ export class BuildService {
           ub = await this.build.findOne({
             where: { id: body.id }
           })
-          res = await this.assetsService.updateAssets(body.sphereTokenId, { 
+          res = await this.assetsService.updateAssets(body.sphereTokenId, {
             '6': assets[6] + cfg.pop_up,  // 总人口上限
             '9': assets[9] + cfg.pop_up,  // 空闲上限
           });
@@ -566,7 +569,7 @@ export class BuildService {
         var assets = await this.assetsService.getAssets(body.sphereTokenId, { select: [growType, '9'] });
         var aCfg = confFromJson('item.json');
         var resMax = await this.calcRepoMax(body.sphereTokenId);
-        
+
         // 现有量+ 单位量x电池 > 配置最大值 + 仓库扩容
         if((assets[growType] + build.slot * cfg.out) > (aCfg[growType].MaxValue + resMax[growType])) return {
           errCode: 7,
@@ -596,7 +599,7 @@ export class BuildService {
           errCode: 0,
           errMsg: 'success',
           data: { update_build: [ub], update_assets: res }
-        } 
+        }
       case BUILDTYPE.LIBRARY:
         var cfg = confFromJson('build_library.json')[build.typeId];
         // 计算是否能收菜
@@ -639,7 +642,7 @@ export class BuildService {
         return {
           errCode: 5,
           errMsg: 'build type error',
-        }      
+        }
     }
   }
 
@@ -653,7 +656,7 @@ export class BuildService {
       }
     }
 
-    const build = await this.build.findOne({ 
+    const build = await this.build.findOne({
       select:['typeId', 'level', 'open'],
       where: { id: body.id }
     });
@@ -731,7 +734,7 @@ export class BuildService {
       }
     }
 
-    const build = await this.build.findOne({ 
+    const build = await this.build.findOne({
       select:['typeId', 'open'],
       where: { id: body.id }
     });
@@ -777,7 +780,7 @@ export class BuildService {
       }
     }
 
-    const build = await this.build.findOne({ 
+    const build = await this.build.findOne({
       select:['typeId', 'start_time', 'open'],
       where: { id: body.id }
     });
@@ -799,7 +802,7 @@ export class BuildService {
       errMsg: 'build typeId error'
     }
 
-    
+
     if(now() < build.start_time + buildConf.cost_time) return {
       errCode: 8,
       errMsg: 'build can not open because during in created process'
@@ -831,7 +834,7 @@ export class BuildService {
 
     await this.calcRepoMax(body.sphereTokenId);
 
-    const build = await this.build.findOne({ 
+    const build = await this.build.findOne({
       where: { id: body.id }
     });
     if(!build) return {
@@ -883,7 +886,7 @@ export class BuildService {
       select:['repo_list'],
       where: { sphereTokenId, type: BUILDTYPE.REPOSITORY }
     })
-    
+
     let result = {}
     for(let repo of repos) {
       let resList = repo.repo_list;

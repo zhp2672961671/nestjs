@@ -2,19 +2,23 @@ import { Controller, Post, UseGuards, Request, Body } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse, ApiHeader } from '@nestjs/swagger';
 import { BuildService } from './build.service';
 import { JwtRolesGuard, Roles } from '../auth/guards/jwt.guard';
-import { 
-  CreateBuildDto, 
-  ListBuildDto, 
-  RemoveBuildDto, 
-  WorkBuildDto, 
+import {
+  CreateBuildDto,
+  ListBuildDto,
+  RemoveBuildDto,
+  WorkBuildDto,
   FarmBuildDto,
-  UpgradeBuildDto, 
-  GetBuildDto, 
-  BuildDataType, 
-  MoveBuildDto, 
+  UpgradeBuildDto,
+  GetBuildDto,
+  BuildDataType,
+  MoveBuildDto,
   OpenBuildDto,
-  RepoBuildDto
+  RepoBuildDto,
+  AllocBuildDto,
+  RemoveBuildResDto,
+  BuildAndAssetsUpdateDto,
 } from './build.dto';
+import { RateInterceptor } from '../../base/base.interceptor';
 
 @ApiTags('建筑')
 @Controller('api/build')
@@ -57,7 +61,7 @@ export class BuildController {
   @Roles('user')
   @ApiOperation({summary:'拆除建筑'})
   @ApiHeader({name:'authoriation', description:'本次请求请带上token', required: true})
-  @ApiResponse({description: JSON.stringify({affected:"拆除的数量"}), status:201})
+  @ApiResponse({ description: '拆除的建筑数据与资产变动', status: 201 , type: RemoveBuildResDto})
   @Post('removeBuild')
   async removeBuild(@Request() req: any, @Body() body: RemoveBuildDto): Promise<any> {
     return await this.service.removeBuild(req.user, body);
@@ -67,6 +71,7 @@ export class BuildController {
   @Roles('user')
   @ApiOperation({summary:'建筑工作'})
   @ApiHeader({name:'authoriation', description:'本次请求请带上token', required: true})
+  @ApiResponse({ description: '建筑与资产变动', status: 201 , type: BuildAndAssetsUpdateDto})
   @Post('workBuild')
   async workBuild(@Request() req: any, @Body() body: WorkBuildDto): Promise<any> {
     return await this.service.workBuild(req.user, body);
@@ -76,6 +81,7 @@ export class BuildController {
   @Roles('user')
   @ApiOperation({summary:'建筑收获'})
   @ApiHeader({name:'authoriation', description:'本次请求请带上token', required: true})
+  @ApiResponse({ description: '建筑与资产变动', status: 201 , type: BuildAndAssetsUpdateDto})
   @Post('farmBuild')
   async farmBuild(@Request() req: any, @Body() body: FarmBuildDto): Promise<any> {
     return await this.service.farmBuild(req.user, body);
@@ -86,6 +92,7 @@ export class BuildController {
   @ApiOperation({summary:'升级建筑'})
   @ApiHeader({name:'authoriation', description:'本次请求请带上token', required: true})
   @ApiResponse({description: '建筑数据', status:201, type: BuildDataType})
+  @ApiResponse({ description: '建筑数据', status: 201, type: BuildAndAssetsUpdateDto })
   @Post('upgradeBuild')
   async upgradeBuild(@Request() req: any, @Body() body: UpgradeBuildDto): Promise<any> {
     return await this.service.upgradeBuild(req.user, body);
@@ -120,6 +127,17 @@ export class BuildController {
   async repoBuild(@Request() req: any, @Body() body: RepoBuildDto):  Promise<any> {
     return await this.service.repoBuild(req.user, body);
   }
+
+  @UseGuards(JwtRolesGuard)
+  @Roles('user')
+  @ApiOperation({ summary: '分配人口' })
+  @ApiHeader({ name: 'authoriation', description: '本次请求请带上token', required: true })
+  @ApiResponse({ description: '建筑数据', status: 201, type: BuildAndAssetsUpdateDto })
+  @Post('alloc-build')
+  async allocBuild(@Request() req: any, @Body() body: AllocBuildDto): Promise<any> {
+    return await this.service.allocBuild(req.user, body);
+  }
+
 
   @UseGuards(JwtRolesGuard)
   @Roles('user')
