@@ -4,17 +4,25 @@ import { UsersService } from '../users/users.service';
 import { JwtService } from '@nestjs/jwt';
 import { EthService } from 'src/blockchain/eth/eth.service';
 import { Logger } from 'src/newLog4js/log4js';
+import { I18nRequestScopeService } from 'nestjs-i18n';
+import { BaseService } from 'src/base/base.service';
+import { JwtConstants } from 'src/app.config';
 
-@Injectable()
-export class AuthService {
+
+
+
+export class AuthService extends BaseService {
   // 构造注入用户服务
   constructor(
     private readonly usersService: UsersService,
     private readonly jwtService: JwtService,
     private readonly ethService: EthService,
+    protected readonly i18n: I18nRequestScopeService,
     @Inject(CACHE_MANAGER)
-    private cache: Cache,
-  ) {}
+    protected readonly cache: Cache,
+  )  {
+    super(cache, i18n);
+  }
 
   /**
    * 本地校验策略
@@ -63,11 +71,7 @@ export class AuthService {
     // 缓存信息
     await this.cache.set(address, msg, { ttl: time });
     // 返回
-    return {
-      errCode: 0,
-      errMsg: 'success',
-      data: { msg },
-    };
+    return this.success({ msg });
   }
 
   /**
@@ -86,10 +90,11 @@ export class AuthService {
       avatar: user.avatar,
     });
     console.log("token=========",token)
-    return {
-      errCode: 0,
-      errMsg: 'success',
-      data: { token }
-    };
+    let nowSec = Math.floor(Date.now() / 1000);
+
+    return this.success({
+      token: token,
+      timestamp: JwtConstants.EXPIRE_DAY * 86400 + nowSec
+    });
   }
 }
